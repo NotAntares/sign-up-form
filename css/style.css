@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    font-weight: 400;
+    line-height: 1.5em;
+    font-size: 22px;
+}
+
+body{
+    background-color:#0b5650;
+}
+
+main{
+    max-width: 1400px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #eee;
+    display: flex;
+    height: 100vh;
+}
+
+h1{
+    font-weight: 200;
+    font-size: 60px;
+    padding-left: 10px;
+    color: #fff;
+    
+}
+
+.eye-catcher{
+    background: no-repeat center/cover url(../img/copper-abstakt.jpg);
+    width: 60%;
+}
+
+.logo{
+    background-color: rgba(7, 49, 75, 0.5);
+    height: 15vh;
+    margin-top: 30vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h3, p{
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+p, a{
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: #d37817;
+    font-weight: 700;
+}
+
+form section{
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0px 4px 4px rgba(34, 34, 34, 0.2);
+}
+
+.form-row{
+    display: flex;
+    gap: 80px;
+    justify-content: start;
+    margin: 30px 50px;
+    padding-right: 100px;
+
+}
+
+.form-row div{
+    width: 50%;
+}
+
+label{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+input[type='password']{
+    width: 100%;
+    font-size: 18px;
+    padding: .3em;
+    border-radius: 5px;
+    border: #bbb solid 1px;
+}
+
+input:invalid{
+    border: #dc1717 solid 2px;
+}
+
+input:focus{
+    outline: none;
+    border: #17d9dc solid 2px;
+    box-shadow: 2px 2px 2px rgba(34, 34, 34, .2);
+}
+
+button{
+    background-color: #d37817;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px rgba(34, 34, 34, .2);
+}
